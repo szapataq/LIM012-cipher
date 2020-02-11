@@ -6,10 +6,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Esta es la prueba de mi primer commit</h1>
-    <h3>DIARIO SECRETO</h3>
+ 
     <header></header>
-    <main></main>
+    <main>
+      <div class="seccion" id="Seccion_1"> 
+        
+        <h1>Diario  Secreto</h1>
+        <h3>Ingresa tu mensaje a encriptar </h3>
+        <input type="text" id="mensaje"/>
+
+        <h3>Ingresa tu clave </h3>
+        <input type="text" id="clave"/>
+        <input type="button" name="enviar" value="Enviar" onclick="capturar()"/><br>
+
+        <h3>Tu mensaje encriptado es:</h3>
+        <input type="text" id="mensaje-encriptado"/>
+        
+        
+        
+      </div>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
