@@ -2,48 +2,103 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
  
     <header></header>
+
     <main>
-      <div class="seccion" id="Seccion_1"> 
-        
-        <h1>Diario  Secreto</h1>
-        <h3>Ingresa tu mensaje a encriptar </h3>
-        <input type="text" id="mensaje"/>
-
-        <h3>Ingresa tu clave </h3>
-        <input type="text" id="clave"/>
-
-        <button type="button" id="btn">Enviar</button>
-
-        <h3>Tu mensaje encriptado es:</h3>
-        <input type="text" id="encriptado"/>
-     
-        
+      <div class="global">
+        <div class="first-section" id="first-section">
+          <div class="container">
+              <div class="first-area">
+                  <p class="logo">
+                      Dilo en secreto
+                  </p>
+              </div>
+  
+              <div class="second-area">
+                  <p class="mensaje">
+                    Dilo en secreto es una pagina en la cual podras escribir tu diario personal de forma secreta. 
+                    ¡Trankilx solo tu lo sabras!
+                  </p>
+                  <p class="inpNombre">
+                      ¿Cual es tu nombre?
+                  </p>
+                  <p class="block1"> 
+                      <input type="text" id="name"/>
+                  </p>
+                  <p class="block" id="btn-index">
+                      <button>
+                          Siguiente
+                      </button>
+                  </p>
+  
+              </div>
+          </div>
+        </div>
       </div>
-      <div class="seccion" id="Seccion_2"> 
-        
-        <h1>Diario  Secreto</h1>
-        <h3>Ingresa tu mensaje a desencriptar </h3>
-        <input type="text" id="mensajeEnc"/>
+ 
+    
+    <div class="second-section" id="second-section">
+      <div class="second-container">
+        <h1 class="logo2">Dilo en secreto</h1>
+        <div class="global-container">
+          <div class="container-form">
+            <form action="">
+              <p class="cont-block">
+                <label>Ingresa mensaje</label>
+                <textarea rows="3" id="message"></textarea>
+              </p>
+              <p class="cont-block">
+                <label>Ingresa Clave:</label>
+                <input type="text" name="clave" id="offset" required/>
+              </p>
+              <p>
+                <button type="button" id="btn-encode">Encriptar</button>
+              </p>
+              <p>
+                <button type="button" id="btn-decode">Desencriptar</button>
+              </p>
+              <p class="cont-block">
+                <label>Resultado</label>
+                <textarea name="message" rows="3" id="output"></textarea>
+              </p>
+              <p class="cont-block">
+                <button type="reset">Limpiar</button>
+              </p>
+            </form>
 
-        <h3>Ingresa tu clave </h3>
-        <input type="text" id="claveEnc"/>
-
-        <button type="button" id="btnEnc">Enviar</button>
-
-        <h3>Tu mensaje encriptado es:</h3>
-        <input type="text" id="desencriptado"/>
-     
-        
+          </div>
+          <div class="container-calendar">
+            <p >
+              <h2 id="output-name">Aqui va la bienvenida</h2>
+            </p>
+            <p>
+              <input type="date" name="fecha">
+            </p>
+            
+          </div>
+        </div>
       </div>
-
+     
+    </div> 
+    
     </main>
-    <footer></footer>
+    <div class="footer" id="footer">
+      <footer>
+        <div class="container-footer">
+          <div class="footer">
+          © Copyright 2020 Copyright.es - Todos los Derechos Reservados - Legal
+          </div>
+        </div>
+      </footer>
+    </div>   
+    
+
     <script src="index.js" type="module"></script>
 
   </body>
