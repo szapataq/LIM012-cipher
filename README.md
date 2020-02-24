@@ -1,8 +1,8 @@
-# Cifrado César
+# Dilo en secreto 
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Descripcion](#1-Descripción)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -13,12 +13,10 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Descripcion
+Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu diario personal, SI! ese diario que tantas veces ocultaste de las demas personas, ahora tus mas intimos secretos seran secreto y solo tu podras saber que escribiste, gracias a una clave secreta que tu mismx crearas.
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
