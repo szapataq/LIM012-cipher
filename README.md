@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Descripcion](#1-Descripción)
+* [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -13,47 +13,12 @@
 
 ***
 
-## 1. Descripcion
-Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu diario personal, SI! ese diario que tantas veces ocultaste de las demas personas, ahora tus mas intimos secretos seran secreto y solo tu podras saber que escribiste, gracias a una clave secreta que tu mismx crearas.
+## 1. Descripción del proyecto
+Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu diario personal, **¡SI!** ese diario que tantas veces ocultaste de otras personas, ahora tus mas intimos secretos estaran ocultos y solo tu podrás saber que escribiste, gracias a una clave secreta que tu mismx crearas. 
 
+## 2. Protipado
 
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
-
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
-
-## 2. Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+![prototipado](https://user-images.githubusercontent.com/55293526/75158558-5eb9f980-56e4-11ea-85f7-160882c272a9.png)
 
 ## 3. Objetivos de aprendizaje
 
