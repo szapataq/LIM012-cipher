@@ -2,14 +2,13 @@
 
 ## Índice
 
-* [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
-* [2. Prototipado](#2-Prototipado)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+ [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
+ [2. Vistas finales del proyecto](#2-Vistas-finales-del-proyecto)
+ [3. Investigacion UX](#3-Investigación-UX)
+ [4. Objetivos de Aprendizaje](#4-Objetivos-de-aprendizaje)
+ [5. Enlaces del proyecto](#5-Enlaces-del-proyecto)
+ [6. Trabajos futuros](#Trabajos-futuros)
+
 
 ***
 
@@ -27,23 +26,23 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
     
 ### Solucion de problemas y necesidades de usuarios con el proyecto
 
-    * Poder adquirir un diario virtual el cual no tenga necesidad de ocultarlo en algun lugar de casa.
-    * Si alguien logra ingresar a su diario virtual, no podrá saber que dice ya que este estará oculto.
-    * El usuario no tenga temor de expresar lo que quiera en su diario personal.
+  * Poder adquirir un diario virtual el cual no tenga necesidad de ocultarlo en algun lugar de casa.
+  * Si alguien logra ingresar a su diario virtual, no podrá saber que dice ya que este estará oculto.
+  * El usuario no tenga temor de expresar lo que quiera en su diario personal.
 
 ### Prototipado
-    * No Digital
-    * Digital
+  * No Digital
+  * Digital
 ### Resumen de feedback de mejoras a realizar
 ## 4. Objetivos de aprendizaje
 
 ## 5. Enlaces del proyecto
-    * Planificación: 
-    * Despliegue en Git-Hub:
+  * Planificación: 
+  * Despliegue en Git-Hub:
 
 ## 6. Trabajos Futuros
-    * Que la página pueda almacenar una BD de usuarios.
-    * Que la página permita realizar el almacenamiento del dia a dia del proyecto.
+  * Que la página pueda almacenar una BD de usuarios.
+  * Que la página permita realizar el almacenamiento del dia a dia del proyecto.
     
 
 ![prototipado](https://user-images.githubusercontent.com/55293526/75158558-5eb9f980-56e4-11ea-85f7-160882c272a9.png)
