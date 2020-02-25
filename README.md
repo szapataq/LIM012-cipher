@@ -45,7 +45,7 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 
 ### HTML y CSS
 
-* [ ] Uso correcto de HTML semántico
+* [x] Uso correcto de HTML semántico
 * [ ] Uso de selectores de CSS
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
