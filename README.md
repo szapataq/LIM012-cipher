@@ -2,12 +2,12 @@
 
 ## Índice
 
- [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
- [2. Vistas finales del proyecto](#2-Vistas-finales-del-proyecto)
- [3. Investigacion UX](#3-Investigación-UX)
- [4. Objetivos de Aprendizaje](#4-Objetivos-de-aprendizaje)
- [5. Enlaces del proyecto](#5-Enlaces-del-proyecto)
- [6. Trabajos futuros](#Trabajos-futuros)
+* [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
+* [2. Vistas finales del proyecto](#2-Vistas-finales-del-proyecto)
+* [3. Investigacion UX](#3-Investigación-UX)
+* [4. Objetivos de Aprendizaje](#4-Objetivos-de-aprendizaje)
+* [5. Enlaces del proyecto](#5-Enlaces-del-proyecto)
+* [6. Trabajos futuros](#Trabajos-futuros)
 
 
 ***
@@ -19,10 +19,11 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
 ## 2. Vistas finales del proyecto
 
 ## 3. Investigacion UX
+
 ### Usuarios y Objetivos en relacion al producto
 
-    El proyecto va dirigido a usuarios en general, en primera instancia que tengan conocimiento basico de plataformas digitales(Laptop, smartphone, Tablet entre otros) y que tengan o quieran adquirir el hábito de escribir un diario personal.
-    El objetivo del proyecto es crear un diario personal virtual que a la vez encripte lo que el usuario escriba en su dia a dia, de tal forma que nadie mas pueda saber que diga mas que el dueño del diario.
+El proyecto va dirigido a usuarios en general, en primera instancia que tengan conocimiento basico de plataformas digitales(Laptop, smartphone, Tablet entre otros) y que tengan o quieran adquirir el hábito de escribir un diario personal.
+El objetivo del proyecto es crear un diario personal virtual que a la vez encripte lo que el usuario escriba en su dia a dia, de tal forma que nadie mas pueda saber que diga mas que el dueño del diario.
     
 ### Solucion de problemas y necesidades de usuarios con el proyecto
 
