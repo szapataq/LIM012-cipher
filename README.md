@@ -14,9 +14,37 @@
 ***
 
 ## 1. Descripción del proyecto
+
 Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu diario personal, **¡SI!** ese diario que tantas veces ocultaste de otras personas, ahora tus mas intimos secretos estaran ocultos y solo tu podrás saber que escribiste, gracias a una clave secreta que tu mismx crearas. 
 
-## 2. Protipado
+## 2. Vistas finales del proyecto
+
+## 3. Investigacion UX
+### Usuarios y Objetivos en relacion al producto
+
+    El proyecto va dirigido a usuarios en general, en primera instancia que tengan conocimiento basico de plataformas digitales(Laptop, smartphone, Tablet entre otros) y que tengan o quieran adquirir el hábito de escribir un diario personal.
+    El objetivo del proyecto es crear un diario personal virtual que a la vez encripte lo que el usuario escriba en su dia a dia, de tal forma que nadie mas pueda saber que diga mas que el dueño del diario.
+    
+### Solucion de problemas y necesidades de usuarios con el proyecto
+
+    * Poder adquirir un diario virtual el cual no tenga necesidad de ocultarlo en algun lugar de casa.
+    * Si alguien logra ingresar a su diario virtual, no podrá saber que dice ya que este estará oculto.
+    * El usuario no tenga temor de expresar lo que quiera en su diario personal.
+
+### Prototipado
+    * No Digital
+    * Digital
+### Resumen de feedback de mejoras a realizar
+## 4. Objetivos de aprendizaje
+
+## 5. Enlaces del proyecto
+    * Planificación: 
+    * Despliegue en Git-Hub:
+
+## 6. Trabajos Futuros
+    * Que la página pueda almacenar una BD de usuarios.
+    * Que la página permita realizar el almacenamiento del dia a dia del proyecto.
+    
 
 ![prototipado](https://user-images.githubusercontent.com/55293526/75158558-5eb9f980-56e4-11ea-85f7-160882c272a9.png)
 
