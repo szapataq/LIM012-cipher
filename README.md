@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Descripcion del proyecto](#1-Descripción-del-proyecto)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Prototipado](#2-Prototipado)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
