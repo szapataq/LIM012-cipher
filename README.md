@@ -30,7 +30,7 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
 
 ## 3. Investigacion UX :paperclip:
 
-### Usuarios y Objetivos en relacion al producto :woman: :men:
+### Usuarios y Objetivos en relacion al producto :woman: :man:
 
 El proyecto va dirigido a usuarios en general, en primera instancia que tengan conocimiento basico de plataformas digitales (Laptop, smartphone, Tablet entre otros) y que tengan o quieran adquirir el hábito de escribir un diario personal.
 El objetivo del proyecto es crear un diario personal virtual que a la vez encripte lo que el usuario escriba en su dia a dia, de tal forma que nadie mas pueda saber que diga mas que el dueño del diario.
