@@ -251,11 +251,9 @@ form{
     .logo2{
         font-size: 2em;
     }
-
-
 }
 .footer{
-    margin-top: 2em 0;
+    margin: 1em ;
 }
 footer{
     background-color:  #443F3E;
@@ -264,5 +262,4 @@ footer{
     text-align: center;
     margin: 0;
     padding: 0.5em 0;
-    
 }

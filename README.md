@@ -42,8 +42,18 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 
 ### Prototipado :memo:
   * No Digital 
+    ![prototipo1](https://user-images.githubusercontent.com/55293526/75353873-16344480-587a-11ea-9c1b-982a382dd54d.jpg)
+    ![prototipo2](https://user-images.githubusercontent.com/55293526/75353884-19c7cb80-587a-11ea-8751-53942dca84fc.jpg)
+    
   * Digital 
+    ![prototipo_dig1](https://user-images.githubusercontent.com/55293526/75353893-1df3e900-587a-11ea-8ef1-fa2d7208b8dd.png)
+    ![prototipo_dig2](https://user-images.githubusercontent.com/55293526/75353902-20eed980-587a-11ea-84aa-a65feeb69592.png)
+
 ### Resumen de feedback de mejoras a realizar :clipboard:
+  * Usar *let* o *const* para la declaración de variables.
+  * Usar funciones *arrow*.
+  * Dedicar un tiempo considerable a las tareas designada a cada Sprint.
+  * Ser mas constante con las buenas practicas.
 
 ## 4. Objetivos de aprendizaje :trophy:
   ### UX
@@ -74,8 +84,8 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 * [ ] Utilizar ES Modules (`import` | `export`).
 
 ## 5. Enlaces del proyecto :paperclip:
-  * Planificación: 
-  * Despliegue en Git-Hub:
+  * Planificación:  [documento](https://docs.google.com/document/d/1EcOhwenMpDi5dfrWBXQiNWmRYNWVF3cdvkJsi8Wgr_k/edit?usp=sharing)
+  * Despliegue en Git-Hub: https://szapataq.github.io/LIM012-cipher/src/.
 
 ## 6. Trabajos Futuros :crystal_ball:
   * Que la página pueda almacenar una BD de usuarios.
