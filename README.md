@@ -12,7 +12,7 @@
 
 ***
 
-## 1. Descripción del proyecto
+## 1. Descripción del proyecto  :clipboard:
 
 Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu diario personal, **¡SI!** ese diario que tantas veces ocultaste de otras personas, ahora tus mas intimos secretos estaran ocultos y solo tu podrás saber que escribiste, gracias a una clave secreta que tu mismx crearas. 
 
