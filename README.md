@@ -23,10 +23,9 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
 
 ![segundavista](https://user-images.githubusercontent.com/55293526/75310134-0fc5ae80-5821-11ea-9d81-8bf7fafbb33b.png)
 
-### Vista Mobil :iphone:
+### Vista Mobile :iphone:
 ![primera_vista_mobile](https://user-images.githubusercontent.com/55293526/75310582-5b2c8c80-5822-11ea-84cd-b256cfd78f8f.png)
-![segunda_vista_mobile](https://user-images.githubusercontent.com/55293526/75310615-73041080-5822-11ea-9097-84fca47c4496.png)
-
+![segunda_vista_mobile](https://user-images.githubusercontent.com/55293526/75311884-2de1dd80-5826-11ea-807d-a3a11bacdd82.png)
 
 ## 3. Investigacion UX :paperclip:
 
