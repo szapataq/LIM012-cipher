@@ -18,25 +18,35 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
 
 ## 2. Vistas finales del proyecto
 
-## 3. Investigacion UX
+### Vista Laptop :computer:
+![vista_principal](https://user-images.githubusercontent.com/55293526/75310025-c1181480-5820-11ea-9b13-3c144f09f091.png)
 
-### Usuarios y Objetivos en relacion al producto
+![segundavista](https://user-images.githubusercontent.com/55293526/75310134-0fc5ae80-5821-11ea-9d81-8bf7fafbb33b.png)
+
+### Vista Mobil :iphone:
+![primera_vista_mobile](https://user-images.githubusercontent.com/55293526/75310582-5b2c8c80-5822-11ea-84cd-b256cfd78f8f.png)
+![segunda_vista_mobile](https://user-images.githubusercontent.com/55293526/75310615-73041080-5822-11ea-9097-84fca47c4496.png)
+
+
+## 3. Investigacion UX :paperclip:
+
+### Usuarios y Objetivos en relacion al producto :woman: :men:
 
 El proyecto va dirigido a usuarios en general, en primera instancia que tengan conocimiento basico de plataformas digitales (Laptop, smartphone, Tablet entre otros) y que tengan o quieran adquirir el hábito de escribir un diario personal.
 El objetivo del proyecto es crear un diario personal virtual que a la vez encripte lo que el usuario escriba en su dia a dia, de tal forma que nadie mas pueda saber que diga mas que el dueño del diario.
     
-### Solucion de problemas y necesidades de usuarios con el proyecto
+### Solucion de problemas y necesidades de usuarios con el proyecto :pushpin:
 
   * Poder adquirir un diario virtual el cual no tenga necesidad de ocultarlo en algun lugar de casa.
   * Si alguien logra ingresar a su diario virtual, no podrá saber que dice ya que este estará oculto.
   * El usuario no tenga temor de expresar lo que quiera en su diario personal.
 
-### Prototipado
-  * No Digital
-  * Digital
-### Resumen de feedback de mejoras a realizar
+### Prototipado :memo:
+  * No Digital 
+  * Digital 
+### Resumen de feedback de mejoras a realizar :clipboard:
 
-## 4. Objetivos de aprendizaje
+## 4. Objetivos de aprendizaje :trophy:
   ### UX
 
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
@@ -64,11 +74,11 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 * [ ] Datos atómicos y estructurados
 * [ ] Utilizar ES Modules (`import` | `export`).
 
-## 5. Enlaces del proyecto
+## 5. Enlaces del proyecto :paperclip:
   * Planificación: 
   * Despliegue en Git-Hub:
 
-## 6. Trabajos Futuros
+## 6. Trabajos Futuros :crystal_ball:
   * Que la página pueda almacenar una BD de usuarios.
   * Que la página permita realizar el almacenamiento del dia a dia del proyecto.
     
