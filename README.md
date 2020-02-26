@@ -47,7 +47,7 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 ![prototipo_nodig](https://user-images.githubusercontent.com/55293526/75356565-1f271500-587e-11ea-99aa-5ce89e31188c.png)
     
 #### Digital 
-![prototipo_dig](https://user-images.githubusercontent.com/55293526/75356549-19313400-587e-11ea-8a87-623e091091e4.png)
+![prototipo_dig](https://user-images.githubusercontent.com/55293526/75357016-b5f3d180-587e-11ea-9c71-98b5f174cab6.png)
 
 
 ### Resumen de feedback de mejoras a realizar :clipboard:
