@@ -5,23 +5,20 @@
 
 *{
     box-sizing: border-box;
-    
 }
 
 body {
     background: #181818;
-
     padding: 0 1.5em;
     background-image: url("img/wallpaper2.jpg");
     background-size: cover;
- 
 }
+
 .first-section{
     color: #fff;
     line-height: 1.6;
     font-family: 'Dosis', sans-serif;
     padding: 4em 1em;
-
 }
 .container{
     max-width: 1366px;
@@ -32,7 +29,6 @@ body {
 .container > * {
     padding: 1em;
 }
-
 .first-area{
     background: white;
     opacity: 0.7;
@@ -40,14 +36,12 @@ body {
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 3em;
-    line-height: 1;
-   
+    line-height: 1; 
 }
 .first-area p{
     margin: 0;
     padding: 0em;
 }
-
 .second-area {
     background:#4D4949 ;
 }
@@ -75,7 +69,6 @@ p .inpNombre{
     outline: 0;
     color: #fff;
     border-bottom: 1px solid #F9DCE1;
-
 }
 .second-area button{
     background: #B70E21;
@@ -96,7 +89,6 @@ p .inpNombre{
     outline: 0;
 }
 /*second section*/
-
 .second-container{
     max-width: 1170;
     margin-left: auto;
@@ -105,7 +97,6 @@ p .inpNombre{
     font-family: 'Dosis', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
-    
 }
 .logo2{
     text-align: center;
@@ -117,7 +108,6 @@ p .inpNombre{
 }
 .global-container{
     box-shadow:0 0 20px 0 rgba(106, 86, 81, .2);
-
 }
 .global-container>*{
     padding: 1em;

@@ -1,46 +1,58 @@
 const cipher = {
   encode:(offset,string)=>{
-    try {
-      let mensaje=string.toUpperCase();
-      let clave = parseInt(offset);
-      let salida = "";
-      let letras_Ascii;
-
-      for(let i = 0; i < mensaje.length ; i++){
-        let mensajeToAscii = mensaje[ i ].charCodeAt();
-        if(mensajeToAscii === 32){
-          salida=salida+String.fromCharCode( mensajeToAscii );
-        }else{
-          letras_Ascii = (mensajeToAscii - 65 + clave ) % 26 + 65;//formula sugerida a travez de codigo ASCII
-          salida = salida+ String.fromCharCode( letras_Ascii );
-        }
-      }
-      return salida;
-
-    } catch (error) {
-      throw error;
-    }
-    
-  },
-
-  decode:(offset,string)=>{
-    let mensaje=string.toUpperCase();
-    let clave = parseInt(offset);
-
-    let salida = "";
-    let letras_Ascii;
-    for ( let i = 0; i < mensaje.length ; i++ ){
-      let mensajeToAscii = mensaje[ i ].charCodeAt();
-      if (mensajeToAscii === 32){
-        salida=salida+String.fromCharCode(mensajeToAscii);
-      }else{
-        letras_Ascii = (mensajeToAscii + 65 - clave ) % 26 + 65;
-        salida = salida+ String.fromCharCode( letras_Ascii );
-      }
-    }
-    return salida;
-  }
+ 
+    let key = parseInt(offset);
+    let asciiToString;
+    let finalString= "";
+    for(let i = 0; i<string.length;i++){
+      
+      let stringToAscii = string[i].charCodeAt();
   
+      if(stringToAscii  >= 65 && stringToAscii  <= 90){
+        asciiToString = String.fromCharCode((( stringToAscii  - 65 + key ) % 26 + 65));
+        finalString += asciiToString;
+  
+      }else if(stringToAscii  >= 97 && stringToAscii  <= 122){
+        asciiToString = String.fromCharCode((( stringToAscii  - 97 + key ) % 26 + 97));
+        finalString += asciiToString;
+  
+      }else if(stringToAscii  >= 48 && stringToAscii  <= 57){
+        asciiToString = String.fromCharCode((( stringToAscii  - 48 + key ) % 10 + 48));
+        finalString += asciiToString;
+      }else{
+          finalString = finalString + string[i];
+      }
+    }
+    return finalString;
+  },
+  
+  decode:(offset,string)=>{
+    let key = parseInt(offset);
+    let asciiToString;
+    let finalString= "";
+
+    for(let i = 0; i<string.length;i++){
+
+      let stringToAscii = string[i].charCodeAt();
+
+      if(stringToAscii  >= 65 && stringToAscii  <= 90){
+        asciiToString = String.fromCharCode((( stringToAscii  - 90 - key ) % 26 + 90));
+        finalString += asciiToString;
+
+      }else if(stringToAscii  >= 97 && stringToAscii  <= 122){
+        asciiToString = String.fromCharCode((( stringToAscii  - 122 - key ) % 26 + 122));
+        finalString += asciiToString;
+
+      }else if(stringToAscii  >= 48 && stringToAscii  <= 57){
+        asciiToString = String.fromCharCode((( stringToAscii  - 57 - (key) ) % 10 + 57));
+        finalString += asciiToString;
+      }else{
+          finalString = finalString + string[i];
+      }
+    }
+    return finalString;
+  }
+   
 };
 
 export default cipher;
