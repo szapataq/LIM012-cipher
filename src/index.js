@@ -9,7 +9,6 @@ document.getElementById("first-section").style.display="block";
 document.getElementById("second-section").style.display="none";
 document.getElementById("footer").style.display="none";
 
-
 let name = document.getElementById('name');
 
 btnEncode.addEventListener("click", () => {
