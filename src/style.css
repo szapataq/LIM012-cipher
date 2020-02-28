@@ -8,9 +8,9 @@
 }
 
 body {
-    background: #181818;
+    background: red;
     padding: 0 1.5em;
-    background-image: url("img/wallpaper2.jpg");
+    /* background-image: url("img/wallpaper2.jpg"); */
     background-size: cover;
 }
 
