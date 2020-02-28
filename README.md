@@ -58,32 +58,33 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
   * Ser mas constante con las buenas practicas.
 
 ## 4. Objetivos de aprendizaje :trophy:
-  ### UX
 
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual.
+### UX
+
+* [✓] Diseñar la aplicación pensando y entendiendo al usuario.
+* [✓] Crear prototipos para obtener feedback e iterar.
+* [-] Aplicar los principios de diseño visual.(proceso de mejora)
 
 ### HTML y CSS
 
-* [x] Uso correcto de HTML semántico
-* [ ] Uso de selectores de CSS
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [✓] Uso correcto de HTML semántico
+* [✓] Uso de selectores de CSS
+* [✓] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-* [ ] Uso de selectores de nodos del DOM
-* [ ] Manejo de eventos del DOM
-* [ ] Manipulación dinámica del DOM
+* [✓] Uso de selectores de nodos del DOM (se uso los que se vieron por conveniente)
+* [✓] Manejo de eventos del DOM
+* [✓] Manipulación dinámica del DOM
 
 ### Javascript
 
-* [ ] Manipulación de strings
-* [ ] Uso de condicionales
-* [ ] Uso de bucles
-* [ ] Uso de funciones
-* [ ] Datos atómicos y estructurados
-* [ ] Utilizar ES Modules (`import` | `export`).
+* [✓] Manipulación de strings
+* [✓] Uso de condicionales
+* [✓] Uso de bucles
+* [✓] Uso de funciones
+* [✓] Datos atómicos y estructurados
+* [-] Utilizar ES Modules (`import` | `export`).
 
 ## 5. Enlaces del proyecto :paperclip:
 
