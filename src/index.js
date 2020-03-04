@@ -1,15 +1,15 @@
 import cipher from './cipher.js';
 
 /**variables para encriptar */
-let message = document.getElementById('message');
-let offset = document.getElementById('offset');
-let btnEncode = document.getElementById('btn-encode');
-let btnDecode = document.getElementById('btn-decode');
+const message = document.getElementById('message');
+const offset = document.getElementById('offset');
+const btnEncode = document.getElementById('btn-encode');
+const btnDecode = document.getElementById('btn-decode');
 document.getElementById("first-section").style.display="block";
 document.getElementById("second-section").style.display="none";
 document.body.childNodes[1].style.display="none";
 document.body.childNodes[5].style.display="none";
-let name = document.getElementById('name');
+const name = document.getElementById('name');
 
 
 btnEncode.addEventListener("click", () => {
