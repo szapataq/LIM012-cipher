@@ -76,7 +76,7 @@ body {
 }
 .second-area button:hover, .second-area button:focus{
     background: #d63031;
-    color: #000;
+    color: #333333;
     transition: background-color 0.5s ease-out;
     outline: 0;
 }
@@ -120,7 +120,7 @@ body {
     background: none;
     border-bottom: 1px solid #d63031;
     outline: none;
-    color:black;
+    color:#333333;
     font-size: 0.8em;
     font-family: 'Dosis', sans-serif;
 }
