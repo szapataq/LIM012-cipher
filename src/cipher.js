@@ -1,6 +1,10 @@
 const cipher = {
   encode:(offset,string)=>{
- 
+
+    if(offset === "" || string ==="" || offset === 0 || string.length === 0 || offset ===null ||string === null){
+      throw new TypeError();
+    }
+
     let key = parseInt(offset);
     let asciiToString;
     let finalString= "";
@@ -27,6 +31,7 @@ const cipher = {
   },
   
   decode:(offset,string)=>{
+
     let key = parseInt(offset);
     let asciiToString;
     let finalString= "";

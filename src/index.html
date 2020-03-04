@@ -8,7 +8,11 @@
   </head>
   <body>
  
-    <header></header>
+    <header>
+      <div class="header">
+        Dilo en secreto
+      </div>
+    </header>
 
     <main>
       
@@ -29,75 +33,79 @@
                   ¿Cual es tu nombre?
               </p>
               <p class="block1"> 
-                  <input type="text" id="name"/>
+                  <input type="text" id="name" autocomplete="off" spellcheck="false"/>
+                  <p class="alerta"></p>
               </p>
               <p class="block" id="btn-index">
-                  <button>
+                  <button>  
                       Siguiente
                   </button>
               </p>
-
           </div>
         </div>
       </div>
       
-    <div class="second-section" id="second-section">
-      <div class="second-container">
-        <h1 class="logo2">Dilo en secreto</h1>
-        <div class="global-container">
-          <div class="container-form">
-            <form action="">
-              <p class="cont-block">
-                <label>Ingresa mensaje</label>
-                <textarea rows="3" id="message"></textarea>
-              </p>
-              <p class="cont-block">
-                <label>Ingresa Clave:</label>
-                <input type="text" name="clave" id="offset" required/>
-              </p>
-              <p>
-                <button type="button" id="btn-encode">Encriptar</button>
-              </p>
-              <p>
-                <button type="button" id="btn-decode">Desencriptar</button>
-              </p>
-              <p class="cont-block">
-                <label>Resultado</label>
-                <textarea name="message" rows="3" id="output"></textarea>
-              </p>
-              <p class="cont-block">
-                <button type="reset">Limpiar</button>
-              </p>
-            </form>
-
-          </div>
+      <div class="second-section" id="second-section">
+        <div class="second-container">
           <div class="container-calendar">
-            <p >
-              <h2 id="output-name">Aqui va la bienvenida</h2>
-            </p>
+            <h2 id="output-name"></h2>
             <p>
               <input type="date" name="fecha">
             </p>
-            
+              
+          </div>
+          <div class="container-form">
+            <form action="">
+              <p>
+                <label>Ingresa mensaje</label>
+                <textarea rows="3" id="message" spellcheck="false"></textarea>
+              </p>
+              <p > 
+                <label>Ingresa Clave</label>
+                <input type="text" name="clave" id="offset" autocomplete="off"/>
+              </p>
+              <p class="cont-block">
+                <button type="button" id="btn-encode">Encriptar</button>
+                <button type="button" id="btn-decode">Desencriptar</button>
+              </p>
+              <p>
+                <label>Resultado</label>
+                <textarea name="message" rows="3" id="output" spellcheck="false" disabled="disabled"></textarea>
+              </p>
+              <p>
+                <button type="reset">Limpiar</button>
+              </p>
+            </form>
           </div>
         </div>
-      </div>
-     
-    </div> 
-    
+      </div> 
+
     </main>
-    <div class="footer" id="footer">
-      <footer>
-        <div class="container-footer">
-          <div class="footer">
-          © Copyright 2020 Copyright.es - Todos los Derechos Reservados - Legal
-          </div>
+
+    <footer>
+      <div class="social-network">
+        <div>
+          <img src="img/facebook.png">
         </div>
-      </footer>
-    </div>   
+        <div>
+          <img src="img/instagram.png">
+        </div>
+        <div>
+          <img src="img/twitter.png">
+        </div>
+        <div>
+          <img src="img/google.png">
+        </div>        
+      </div>
+
+      <div class="footer">
+          © Copyright 2020 Copyright.es - Todos los Derechos Reservados - Legal
+      </div>
+    </footer>
+  
     
 
     <script src="index.js" type="module"></script>
-
+  
   </body>
 </html>

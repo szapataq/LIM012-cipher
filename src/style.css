@@ -8,23 +8,22 @@
 }
 
 body {
-    
-    padding: 0 1.5em;
     background-image: url("img/wallpaper2.jpg");
     background-size: cover;
+    margin:0;
 }
-
 .first-section{
     color: #fff;
     line-height: 1.6;
-    font-family: 'Dosis', sans-serif;
-    padding: 4em 1em;
+    padding: 4em 0;
 }
 .container{
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    margin: 0 auto;
+    max-width: 350px;
+    min-width: 300px;
+    width: 80%;
+    text-align: center;
 }
 .container > * {
     padding: 1em;
@@ -33,37 +32,29 @@ body {
     background: white;
     opacity: 0.7;
     color: #222222;
-    text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 3em;
     line-height: 1; 
+    padding: 0.6em;
 }
-.first-area p{
-    margin: 0;
+.first-area p {
     padding: 0em;
+    margin: 0em;
 }
 .second-area {
     background:#4D4949 ;
+    font-family: 'Dosis', sans-serif;
 }
-.second-area  p{
-    display: block;
-    text-align: center;
-}
-.mensaje{
-    font-size: 1.0em;
-}
-p .inpNombre{
-    font-size: 1.4em;
+.inpNombre{
+    font-size: 1.2em;
     font-weight: bold;
 }
 .block1{
-    padding: 0.1em;
-    font-size: 10px;
-       
+    margin-top: 0;
+    font-size: 0.625rem;  
 }
 .second-area input,.second-area button{
     width: 100%;
-    padding: 1em;
     border: none;
     background: none;
     outline: 0;
@@ -71,6 +62,7 @@ p .inpNombre{
     border-bottom: 1px solid #F9DCE1;
 }
 .second-area button{
+    margin-top: 0.7em;
     background: #B70E21;
     border: 0;
     text-transform: uppercase;
@@ -84,52 +76,39 @@ p .inpNombre{
 }
 .second-area button:hover, .second-area button:focus{
     background: #d63031;
-    color: #fff;
+    color: #000;
     transition: background-color 0.5s ease-out;
     outline: 0;
 }
 /*second section*/
+.second-section{
+    color: #443F3E;
+}
+.second-container>*{
+    padding: 1em;
+}
 .second-container{
-    max-width: 1170;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
     font-family: 'Dosis', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
-}
-.logo2{
-    text-align: center;
-    font-size: 4em;
-    margin-top: 0;
-    margin-bottom:0;
-    font-family: 'Pacifico', cursive;
-    color: #443F3E;
-}
-.global-container{
     box-shadow:0 0 20px 0 rgba(106, 86, 81, .2);
+    margin: 2.5em auto;
+    max-width: 600px;
+    width: 90%;
 }
-.global-container>*{
-    padding: 1em;
-}
+
 .container-form{
     background-color: #EFEFEF;
 }
-
-form{
-    color:black
-}
-
 .container-form form p{
     margin: 0;
-    padding: 0.5em 1.2em;
+    padding: 0.5em 0.7em;
 }
-.container-form form {
+
+.container-form form .cont-block{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-.container-form form .cont-block{
-    grid-column: 1/3;
+    gap: 1em;   
 }
 
 .container-form form input,
@@ -160,96 +139,75 @@ form{
     outline: 0;
 }
 .container-calendar{
-    background: #F9F3F2;
-    
+    background: #D1CDCC;
+    opacity: 0.9;
 }
-.container-calendar h2,
-.container-calendar input {
+.container-calendar h2 {
     text-align: center;
+    margin: 0.3em;
 }
-/*usando media query*/
-@media(min-width: 860px) {
-    .first-section {
-        margin: 4em 10em ;
+.container-calendar p{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+
+/*header and footer*/
+.header{
+    color:#EFEFEF;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    background-color:#4D4949;
+    padding-left: 1em;
+}
+footer{
+
+    background-color:  #443F3E;
+    color: #EFEFEF;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 0.7em;
+    bottom: 0;
+}
+.social-network{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 30%;
+    margin: 0 auto;
+    gap: 0.5em;
+    padding: 0.5em;
+
+}
+.social-network img{
+    width: 30px;
+    width: 30px;
+}
+@media( min-width: 1024px ){
+    .first-section{
+        padding: 10em 0;
     }
-    .container {
+    .container{      
+        max-width: 800px;
+
+        width: 150%;
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;    
     }
     .first-area{
         font-size: 6em;
-        padding: 0;
-    }
-    .first-area .logo{
-        padding: .7em;
-        color: black;
-    }
-
-}
-
-@media(min-width:768px){
-    .second-section{
-        padding: 0 5rem;
-    }
-    .global-container{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-}
-@media(min-width:1023px){
-    .second-section{
-        padding: 0 10rem;
-    }
-    .global-container{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-}
-@media(min-width:1365px){
-    .second-section{
-         
-         padding: 0 16em 3.5em 16em;
-    }
-    .global{
-        padding-top: 2.0em
-    }
-    .global-container{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .first-section {
-        margin: 4em 16em ;
-        padding: 1em;
-    }
-    .first-area{
-        padding: 0.3em 0.3em;
-    }
-
-}
-
-@media(min-width:320px){
-    body{
-        padding: 0 ;
+        line-height: 1; 
+        padding: 0.6em;
     }
     .second-container{
-        padding: 0.5em;
+        max-width: 765px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
     }
-    .container-form{
-        padding: 0.1em;
+    .container-calendar{
+        padding: 4em 0em;
+
     }
-    .logo2{
-        font-size: 2em;
-    }
+
 }
-.footer{
-    margin: 1em ;
-}
-footer{
-    background-color:  #443F3E;
-    color: blanchedalmond;
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0.5em 0;
-}
+

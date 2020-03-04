@@ -19,13 +19,12 @@ Dilo en secreto es una pagina web en la cual puedes escribir como si fuera tu di
 ## 2. Vistas finales del proyecto
 
 ### Vista Laptop :computer:
-![vista_principal](https://user-images.githubusercontent.com/55293526/75310025-c1181480-5820-11ea-9b13-3c144f09f091.png)
-
-![segundavista](https://user-images.githubusercontent.com/55293526/75310134-0fc5ae80-5821-11ea-9d81-8bf7fafbb33b.png)
+![vista_principal](https://user-images.githubusercontent.com/55293526/75889983-b6024d00-5dfb-11ea-9e5a-a1c4efca3d26.png)
+![segundavista](https://user-images.githubusercontent.com/55293526/75889988-b7337a00-5dfb-11ea-8b70-664193563c03.png)
 
 ### Vista Mobile :iphone:
-![primera_vista_mobile](https://user-images.githubusercontent.com/55293526/75310582-5b2c8c80-5822-11ea-84cd-b256cfd78f8f.png)
-![segunda_vista_mobile](https://user-images.githubusercontent.com/55293526/75311884-2de1dd80-5826-11ea-807d-a3a11bacdd82.png)
+![primera_vista_mobile](https://user-images.githubusercontent.com/55293526/75890418-55bfdb00-5dfc-11ea-9094-61045f61964c.png)
+![segunda_vista_mobile](https://user-images.githubusercontent.com/55293526/75890414-548eae00-5dfc-11ea-8faf-f82aecefd1ab.png)
 
 ## 3. Investigacion UX :paperclip:
 
@@ -61,30 +60,30 @@ El objetivo del proyecto es crear un diario personal virtual que a la vez encrip
 
 ### UX
 
-* [✓] Diseñar la aplicación pensando y entendiendo al usuario.
-* [✓] Crear prototipos para obtener feedback e iterar.
-* [-] Aplicar los principios de diseño visual.(proceso de mejora)
+* [x] Diseñar la aplicación pensando y entendiendo al usuario.
+* [x] Crear prototipos para obtener feedback e iterar.
+* [ ] Aplicar los principios de diseño visual.(proceso de mejora)
 
 ### HTML y CSS
 
-* [✓] Uso correcto de HTML semántico
-* [✓] Uso de selectores de CSS
-* [✓] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [x] Uso correcto de HTML semántico
+* [x] Uso de selectores de CSS
+* [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-* [✓] Uso de selectores de nodos del DOM (se uso los que se vieron por conveniente)
-* [✓] Manejo de eventos del DOM
-* [✓] Manipulación dinámica del DOM
+* [x] Uso de selectores de nodos del DOM (se uso los que se vieron por conveniente)
+* [x] Manejo de eventos del DOM
+* [x] Manipulación dinámica del DOM
 
 ### Javascript
 
-* [✓] Manipulación de strings
-* [✓] Uso de condicionales
-* [✓] Uso de bucles
-* [✓] Uso de funciones
-* [✓] Datos atómicos y estructurados
-* [-] Utilizar ES Modules (`import` | `export`).
+* [x] Manipulación de strings
+* [x] Uso de condicionales
+* [x] Uso de bucles
+* [x] Uso de funciones
+* [x] Datos atómicos y estructurados
+* [ ] Utilizar ES Modules (`import` | `export`).
 
 ## 5. Enlaces del proyecto :paperclip:
 
